@@ -61,39 +61,23 @@
 			<version>2.9.2</version>
 		</dependency>
 		<dependency>
-
 			<groupId>org.jacoco</groupId>
-
 			<artifactId>jacoco-maven-plugin</artifactId>
-
 			<version>0.8.3</version>
-
 		</dependency>
 		<dependency>
-
 			<groupId>org.codehaus.mojo</groupId>
-
 			<artifactId>sonar-maven-plugin</artifactId>
-
 			<version>3.6.0.1398</version>
-
 			<type>pom</type>
-
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-
-  <snapshotRepository>
-
-    <id>nexus</id>
-
-    <url>http://52.66.250.214:8081/nexus/content/repositories/nexus/</url>
-
-  </snapshotRepository>
-
-</distributionManagement>
-
-
+  		<snapshotRepository>
+   		<id>nexus</id>
+   		<url>http://52.66.250.214:8081/nexus/content/repositories/snapshots</url>
+  		</snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
